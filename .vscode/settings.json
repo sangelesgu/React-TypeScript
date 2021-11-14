@@ -1,0 +1,18 @@
+{
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showConstructors": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
