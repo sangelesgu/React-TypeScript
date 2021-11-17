@@ -17,7 +17,6 @@ export const Counter = () => {
       >
         +1
       </button>
-
       <button
         className="btn btn-outline-primary mt-2 pl-2"
         onClick={() => increase(2)}
