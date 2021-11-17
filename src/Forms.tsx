@@ -7,13 +7,11 @@ interface FormData {
 }
 
 export const Forms = () => {
-  const { form, handleChange } = useForm<FormData>({
+  const { form, handleChange, name, email, age } = useForm<FormData>({
     email: "test@test.com",
     name: "Samuel Angeles Gutiérrez",
     age: 33,
   });
-
-  const { email, name, age } = form;
 
   return (
     <form autoComplete="off" className="mb-4">

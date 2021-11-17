@@ -14,5 +14,6 @@ export const useForm = <T extends Object>(initState: T) => {
   return {
     handleChange,
     form,
+    ...form,
   };
 };
